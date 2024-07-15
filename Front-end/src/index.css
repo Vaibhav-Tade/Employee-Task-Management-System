@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-bg {
+  background-color: #EEf3F9 ;
+}
+
+.text-color {
+  color: #09098f ;
+}
+
+
+
+.text-color1 {
+  color: #D4AA00;
+}
+
+.text-color2 {
+  color: #EEf3F9 ;
+}
+
+.text-color3 {
+  color: #09098f ;
+}
+.text-color4 {
+  font-weight: lighter;
+  color: #010102 ;
+  text-indent: 30px;
+  text-decoration: none;
+  list-style-type: disc;
+}
+.border-color {
+  border-color: #5a108f;
+}
+
+.custom-bg-text {
+  color: #EEf3F9;
+}
+.custom-bg-text2 {
+  color: #EEf3F9;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.custom-bg-text23 {
+  color: #EEf3F9;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: end;
+}
+
+.bg-color {
+  background-color: #083056;
+}
+.bg-color3 {
+  background-color: #faf8fb;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  margin-bottom: 20px;
+}
+.rounded-card {
+  padding: 1.5em .5em .5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.form-card {
+  padding: .2em .2em .2em;
+  border-radius: 1em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover .product-card {
+  transform: scale(1.02);
+}
+
+.curruser {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+  text-indent: 20px;
+  background-color: #4399e9;
+  color: #eef3f9;
+  height: 45px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.home-image{
+  margin-right: 50px;
+  margin-left: 0px;
+}
+.home-image1{
+  margin-left: 10px;
+}
+
+.ulist{
+  font-weight: bold;
+  
+  
+}
+.logos{
+  margin-right: 10px;
+}
+
+.background-image {
+ 
+  background-image: url('../src/images/bgImage.png');
+  background-size: cover; /* Cover the entire container */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
